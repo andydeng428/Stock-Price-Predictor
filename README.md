@@ -21,6 +21,10 @@ This project uses Long Short-Term Memory (LSTM) neural networks to predict futur
 
 # Getting Started
 
+Use the following command to install the required packages:
+```
+pip install numpy pandas matplotlib yfinance tensorflow scikit-learn
+```
 Use the command-line interface to specify parameters and execute the script:
 ```
 python stock_prediction.py --ticker <TICKER> --start_date <START_DATE> --end_date <END_DATE> --n_steps <N_STEPS> --epochs <EPOCHS> --batch_size <BATCH_SIZE> --future_days <FUTURE_DAYS>
